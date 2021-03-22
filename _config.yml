@@ -19,7 +19,7 @@
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://YunSung-Choi97.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl : # does not include hostname
+baseurl : https://github.com/YunSung-Choi97/YunSung-Choi97.github.io # does not include hostname
 title   : YunSung-Choi Diary
 description: A diary that dreams of becoming a developer # this means to ignore newlines until "Language & timezone"
 
@@ -33,7 +33,7 @@ timezone: Asia/Seoul # see https://en.wikipedia.org/wiki/List_of_tz_database_tim
 
 ## => Author and Social
 ##############################
-author: YunSung-Choi
+author:
   type      : person # "person" (default), "organization"
   name      : YunSung-Choi
   url       : https://YunSung-Choi97.github.io
