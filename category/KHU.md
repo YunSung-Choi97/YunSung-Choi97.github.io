@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Python/Crawler
-permalink: '/Python/Crawler'
+title: KyungHee Univ.
+permalink: '/KHU'
 ---
 
 Another sample category page.

@@ -123,8 +123,8 @@
 }
 
 .site-category{
-  background: $brand-color;
-  border-top: 1px solid $border-color;
+  background: $header-background;
+  border-top: 1px solid $header-background;
   margin:auto;
   padding:0;
   font-size:14px;
@@ -149,7 +149,7 @@
   }
 
   .site-category li a{
-  background: $brand-color;
+  background: $header-background;
   display:block;
   font-weight:normal;
   line-height:50px;
@@ -184,7 +184,7 @@
   }
 
   .site-category li li {
-  background: $brand-color;
+  background: $header-background;
   display:block;
   float:none;
   margin:0px;
@@ -212,4 +212,3 @@
   color:#ffffff;
   text-decoration:none;
   }
-}

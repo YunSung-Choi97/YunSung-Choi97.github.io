@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Python/Django
-permalink: '/Python/Django'
+title: C++
+permalink: '/cpp'
 ---
 
 Another sample category page.
