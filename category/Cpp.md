@@ -1,7 +1,7 @@
 ---
 layout: category
 title: C++
-permalink: '/cpp'
+permalink: '/Cpp'
 ---
 
 Another sample category page.
