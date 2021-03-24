@@ -1,24 +1,22 @@
 ---
 layout: articles
-title: Articles - Brief (Info)
 show_title: false
-articles:
-  type: brief
-  show_info: true
 ---
 
-<ul class="category-title"><h1><center>{{page.title}}</center><br></h1></ul>
+<center><br>
+<ul class="category-title"><h1>{{page.title}}</h1></ul>
+<br></center>
 
 <ul class="posts-list">
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
     <li>
-      <h3>
+      <h2>
         <a style="color:black" type="text-decoration:none" href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
         </a>
-        <small style="color:cadetblue">{{ post.date | date_to_string }}</small>
-      </h3>
+        <small style="color:cadetblue"><small><br>{{ post.date | date:"%Y %B %-d"}}</small></small>
+      </h2><br>
     </li>
   {% endfor %}
 </ul>
